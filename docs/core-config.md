@@ -3,7 +3,7 @@
 uSync is split into two elements Core and BackOffice. Core actually does
 the serialization/deserlization of items to and from Umbraco. 
 
-The Core doesn't do anything on teh disk or with events - it has been 
+The Core doesn't do anything on the disk or with events - it has been 
 developed this way so that the Core can be used for other ways of Syncing
 things, for example in your own code or via webservices or the command line.
 
